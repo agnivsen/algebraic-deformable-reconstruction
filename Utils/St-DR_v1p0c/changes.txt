@@ -1,0 +1,6 @@
+2011-06-07 (Jae-Hak Kim)
+	- bug fix: autoscaling removed (line 23, plotPaper.m)
+2015-09-14 (Adrien Bartoli)
+	- added computation of the embedding's Jacobian in the embedding function uv2M (and commented the function, with the help of Mathieu Perriollat)
+	- removed functions from the GTPSW toolkit from the 'other' directory, and fix the code to grant compatibility with the independently released version of GTPSW
+	  (the fix was basically to transpose the W/Wu/Wv matrices when used)

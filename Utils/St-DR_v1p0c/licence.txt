@@ -1,0 +1,41 @@
+St-DR (Stereo Developable Reconstruction)
+-----------------------------------------
+
+Copyright 2006 Mathieu Perriollat and Adrien Bartoli.
+Please contact Adrien.Bartoli@gmail.com for more information.
+All rights reserved.
+
+Free Licence
+------------
+
+St-DR is free software; you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
+
+St-DR is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+St-DR if not, write to the Free Software Foundation, Inc., 51 Franklin
+Street, Fifth Floor, Boston, MA 02110-1301, USA 
+
+Citing
+------
+
+St-DR implements the methods described in:
+
+A Quasi-Minimal Model for Paper-Like Surfaces
+M. Perriollat and A. Bartoli
+BenCOS'07 - Proceedings of the ISPRS International Workshop "Towards Benmarking Automated Calibration, Orientation, and Surface Reconstruction from Images" at CVPR'07, Minneapolis, USA, June 2007.
+
+which can be found for download on Adrien Bartoli's webpage.
+
+Other Types of Licencing
+------------------------
+
+Source code is available under the GNU General Public License. 
+In short, if you distribute a software that uses St-DR, 
+you have to distribute it under GPL with the source code. 
+Another option is to contact us to purchase a commercial license. 
