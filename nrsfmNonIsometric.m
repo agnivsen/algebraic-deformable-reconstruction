@@ -15,6 +15,11 @@ parameterSet = {10, 1, 0.1, forwardDepthsWeights}; % isoWt, traceWt, mdhWt (MOD)
 
 precisionVal = 1.0e-03; lambda = 7; eps = 0.0; solver = 'mosek';
 
+if(rand > 0.7)
+    fprintf(['<strong>WARNING</strong>: the cumulative modelling and solving time for non-isometric ' ...
+        'NRSfM can range in hours. \n\nDo not attempt to test in large-scale problems!\n\n\n']);
+end
+
 
 [reconsFD, ~] = NRSfM_IsometricZeroth(Data, nng, K, 'DeformationModel','mdh-extensible-isometric', ...
     'RescaleData', false, 'Solver', 'mosek');

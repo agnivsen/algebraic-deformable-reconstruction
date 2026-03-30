@@ -24,7 +24,7 @@ for index = 1:nFiles
 
     fprintf('<strong>HULK</strong> dataset: reconstructing image <strong>%d</strong> of %d\n\n', index, nFiles);
 
-    eps = 0; solver = 'sedumi'; mode = 'approximate';  
+    eps = 0; solver = 'mosek'; mode = 'approximate';  
 
     if(strcmp(deformationModel, 'Conformal'))
         [reconstruction, solutionStatus] = algSfT_mConf(template, Data.p(index).p(1:2,:).', K, nng, eps, solver, parameterSet, mode, precisionVal);

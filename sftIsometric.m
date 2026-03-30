@@ -22,7 +22,7 @@ for index = 1:nFiles
 
     fprintf('<strong>HULK</strong> dataset: reconstructing image <strong>%d</strong> of %d\n\n', index, nFiles);
 
-    eps = 0; solver = 'sedumi'; mode = 'approximate';  variant = 'Deformable';
+    eps = 0; solver = 'mosek'; mode = 'approximate';  variant = 'Deformable';
 
     [reconstruction, solutionStatus] = algSfT_mIso(template, Data.p(index).p(1:2,:).', K, nng, eps, solver, parameterSet, mode, precisionVal, pNormType, variant);
     
