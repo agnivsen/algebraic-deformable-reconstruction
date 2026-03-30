@@ -36,7 +36,7 @@ All our solvers are used wrapped in CVX, [please see here](https://web.cvxr.com/
 
 All dataset used in our article are pre-existing benchmark dataset.
 
-Bramante39M [3] has been already open-sourced.
+[Bramante39M](https://github.com/agnivsen/Bramante39M) [3] has been already open-sourced.
 
 ## How to Cite
 
