@@ -10,8 +10,9 @@ the correspondences, an impractical assumption. In contrast, the proposed formul
 
 The code has the following dependencies:
 
- - CVX [1]
+ - [CVX](https://cvxr.com/) [1]
  - Ruled surface generator [2] _(included)_
+ - [Mosek](https://www.mosek.com/) [4] 
 
 Please install CVX following the installation instructions of the library and link CVX and your preferred solver to the code.
 
@@ -27,11 +28,15 @@ The scripts to run are grouped into four categories:
 
 Instructions to run and configure the scripts are provided therein.
 
+If Mosek is unavailable as solver, please change the '_solver_' variable in the four scripts mentioned above. 
+
+All our solvers are used wrapped in CVX, [please see here](https://web.cvxr.com/cvx/beta/doc/solver.html) for a list of solvers supported by CVX.
+
 ## Dataset
 
 All dataset used in our article are pre-existing benchmark dataset.
 
-Bramante39M [3] has been already
+Bramante39M [3] has been already open-sourced.
 
 ## How to Cite
 
@@ -52,3 +57,5 @@ If you find our code and dataset useful, please cite using:
 [2]. Perriollat, M., & Bartoli, A. (2013). A computational model of bounded developable surfaces with application to image‐based three‐dimensional reconstruction. _Computer Animation and Virtual Worlds_, 24(5), 459-476.
 
 [3]. Bartoli, A., & Sengupta, A. (2025). Camera pose in SfT and NRSfM under isometric and weaker deformation models. _Computer Vision and Image Understanding_, 104488.
+
+[4]. ApS, Mosek. "Mosek optimization toolbox for matlab." User’s Guide and Reference Manual, Version 4.1 (2019): 116.
