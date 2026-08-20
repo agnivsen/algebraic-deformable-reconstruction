@@ -1,6 +1,8 @@
 # Convex Solutions to SfT and NRSfM under Algebraic Deformation Models
 Code and dataset from our IEEE TPAMI - 2026 article 'Convex Solutions to SfT and NRSfM under Algebraic Deformation Models'
 
+(The code is in **devel** branch)
+
 ## Abstract
 
 We present nonlinear formulations to Shape-fromTemplate (SfT) and Non-Rigid Structure-from-Motion (NRSfM) faithfully exploiting the isometric, conformal and equiareal deformation models. Existing work uses relaxations such as inextensibility or requires knowing the optic flow field around
